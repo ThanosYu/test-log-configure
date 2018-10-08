@@ -18,18 +18,19 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<repositories>
-		<repository>
-			<id>nexus</id>
-			<url>http://127.0.0.1:8081/repository/maven-public/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
+	<!-- 单独项目下载依赖(即项目pom文件中配置)，这种配置是修改单个项目的pom文件，无需修改maven的setting配置-->
+	<!--<repositories>-->
+		<!--<repository>-->
+			<!--<id>nexus</id>-->
+			<!--<url>http://127.0.0.1:8081/repository/maven-public/</url>-->
+			<!--<releases>-->
+				<!--<enabled>true</enabled>-->
+			<!--</releases>-->
+			<!--<snapshots>-->
+				<!--<enabled>true</enabled>-->
+			<!--</snapshots>-->
+		<!--</repository>-->
+	<!--</repositories>-->
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
