@@ -18,7 +18,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<!-- 单独项目下载依赖(即项目pom文件中配置)，这种配置是修改单个项目的pom文件，无需修改maven的setting配置-->
+	<!-- 项目pom文件中配置，这种配置是修改单个项目的pom文件，无需修改maven的setting配置-->
 	<!--<repositories>-->
 		<!--<repository>-->
 			<!--<id>nexus</id>-->
