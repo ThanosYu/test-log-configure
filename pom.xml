@@ -55,6 +55,8 @@
 			<artifactId>logconfigure</artifactId>
 			<version>1.0.1</version>
 		</dependency>
+
+		Step1
 	</dependencies>
 
 	<build>
