@@ -24,6 +24,7 @@ public class TestLogController {
 
         log.debug("--------------------------------------debug: ");
         log.info("--------------------------------------info: ");
+        log.warn("--------------------------------------warn: ");
         log.error("--------------------------------------error: ");
         testLogService.pringLog();
         return "success";

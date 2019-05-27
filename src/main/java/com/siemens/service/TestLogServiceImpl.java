@@ -17,6 +17,7 @@ public class TestLogServiceImpl implements TestLogService {
     public void pringLog() {
         log.debug("--------------------------------------debug: ");
         log.info("--------------------------------------info: ");
+        log.warn("--------------------------------------warn: ");
         log.error("--------------------------------------error: ");
     }
 }
